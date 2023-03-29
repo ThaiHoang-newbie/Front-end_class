@@ -1,0 +1,145 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.box-playing,
+.lyric-content {
+    margin-left: 50px;
+    max-width: 840px;
+}
+
+.infor-songs {
+    max-width: 840px;
+}
+
+.item {
+    margin-left: 0;
+}
+
+.box-playing a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+h1 {
+    display: inline;
+}
+
+span {
+    font-size: 32px;
+}
+
+.namesong {
+    font-size: 32px;
+}
+
+.mainsong {
+    max-width: 840px;
+    height: auto;
+}
+
+.mainsong .songvideo {
+    max-width: auto;
+}
+
+video {
+    max-width: 840px;
+}
+
+.actions {
+    padding-right: auto;
+    max-width: 840px;
+    height: 50px;
+}
+
+.action {
+    display: flex;
+    float: right;
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.action a {
+    -webkit-transition: .5s all;
+    -webkit-transition-delay: 5s;
+    -moz-transition: .5s all;
+    -moz-transition-delay: 5s;
+    -ms-transition: .5s all;
+    -ms-transition-delay: 5s;
+    -o-transition: .5s all;
+    -o-transition-delay: 5s;
+    transition: .5s all;
+    transition-delay: 5s;
+}
+
+.action a:hover {
+    background: #5AC900;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -ms-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.action > i  {
+    vertical-align: middle;
+}
+
+
+
+.lyric-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.lyric {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-template-rows: 100px;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 100%;
+}
+
+.right {
+    position: relative;
+}
+
+.copy_btn {
+    width: 70px;
+    height: 40px;
+    border: 1px solid;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+hr {
+    color: gray;
+    height: 1px;
+}
+
+.content {
+    font-size: 20px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.content:hover {
+    font-size: 20px;
+    max-height: 150px;
+}
